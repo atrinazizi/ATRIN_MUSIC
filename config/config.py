@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/naya1503/extra-plugins.git",
+    "https://github.com/atrinazizi/extra-plugins.git",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -67,7 +67,6 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5000000000000000")
 )  # Remember to give value in Minutes
-
 
 # You'll need a Private Group ID for this.
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002307517542"))
